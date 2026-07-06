@@ -1,0 +1,18 @@
+services:
+  database:
+    image: postgres:16-alpine
+    container_name: RiwiSuppliers
+    restart: always
+    environment:
+      POSTGRES_USER: varela
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: DB_Juan_Varela_Micaela
+    ports:
+    
+      - "5435:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+
