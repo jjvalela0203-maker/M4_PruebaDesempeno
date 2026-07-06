@@ -10,5 +10,13 @@ This a database from a dirty excel of RIWI Suppliers which was not standardized,
 ## Database engine used
 * DBeaver
 
-## Explanation of mormalization process
+## Explanation of normalization process
+In Excel I found dirty data which I normalized, there were cities, warehouses and suppliers that were written in various ways, what I did was standardize them, and I also stadarized the prices of the products
+
+## Author
+Juan Jose Varela 
+# Clan 
+Micaela
+
+
 
